@@ -21,6 +21,6 @@
     "multipart": true
   },
   "cors": {
-    "origin": "https://art-of-life-blog-fe.now.sh/"
+    "enabled": false
   }
 }
