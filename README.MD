@@ -15,5 +15,8 @@
 - docker cp latest.dump art_of_life:/var/lib/postgresql/data 
 - docker exec art_of_life pg_restore -U xxvalinorxx -d art_of_life /var/lib/postgresql/data/latest.dump -c
 
+## Copy Data FROM Local Docker DB
+- docker exec art_of_life pg_dump -U xxvalinorxx art_of_life > backup.sql
+
 ### PSQL Commands
 - \d view schema

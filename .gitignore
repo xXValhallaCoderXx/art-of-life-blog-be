@@ -111,3 +111,4 @@ exports
 .cache
 build
 latest.*
+backup.sql
