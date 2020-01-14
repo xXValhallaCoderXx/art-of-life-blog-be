@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "feature_posts",
+  "info": {
+    "name": "feature post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "post": {
+      "model": "post"
+    }
+  }
+}
