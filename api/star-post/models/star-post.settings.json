@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "star_posts",
+  "info": {
+    "name": "star post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "post": {
+      "model": "post"
+    }
+  }
+}
