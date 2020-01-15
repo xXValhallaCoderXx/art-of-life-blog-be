@@ -9,8 +9,9 @@
     "timestamps": true
   },
   "attributes": {
-    "post": {
-      "model": "post"
+    "posts": {
+      "collection": "post",
+      "via": "star_post"
     }
   }
 }
