@@ -31,6 +31,10 @@
     "star_post": {
       "via": "posts",
       "model": "star-post"
+    },
+    "sub_category": {
+      "via": "posts",
+      "model": "sub-category"
     }
   }
 }

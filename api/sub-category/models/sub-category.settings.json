@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "sub_categories",
+  "info": {
+    "name": "Sub Category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "posts": {
+      "collection": "post",
+      "via": "sub_category"
+    }
+  }
+}
