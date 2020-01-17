@@ -12,6 +12,9 @@
     "title": {
       "type": "string"
     },
+    "category": {
+      "model": "category"
+    },
     "posts": {
       "collection": "post",
       "via": "sub_category"

@@ -24,17 +24,21 @@
       "plugin": "upload",
       "required": false
     },
+    "star_post": {
+      "model": "star-post",
+      "via": "posts"
+    },
     "category": {
       "via": "posts",
       "model": "category"
     },
-    "star_post": {
-      "via": "posts",
-      "model": "star-post"
-    },
     "sub_category": {
       "via": "posts",
       "model": "sub-category"
+    },
+    "feature_post": {
+      "via": "post",
+      "model": "feature-post"
     }
   }
 }
