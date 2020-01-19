@@ -12,12 +12,16 @@
     "title": {
       "type": "string"
     },
-    "category": {
-      "model": "category"
-    },
     "posts": {
       "collection": "post",
       "via": "sub_category"
+    },
+    "category": {
+      "model": "category",
+      "via": "sub_categories"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

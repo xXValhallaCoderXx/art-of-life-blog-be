@@ -9,12 +9,19 @@
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
     "posts": {
       "collection": "post",
       "via": "category"
+    },
+    "sub_categories": {
+      "via": "category",
+      "collection": "sub-category"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
