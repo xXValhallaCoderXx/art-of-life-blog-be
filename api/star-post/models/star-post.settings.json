@@ -10,8 +10,8 @@
   },
   "attributes": {
     "posts": {
-      "collection": "post",
-      "via": "star_post"
+      "via": "star_post",
+      "collection": "post"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "categories",
+  "collectionName": "sub_categories",
   "info": {
-    "name": "category"
+    "name": "Sub Category"
   },
   "options": {
     "increments": true,
@@ -14,11 +14,11 @@
     },
     "posts": {
       "collection": "post",
-      "via": "category"
+      "via": "sub_category"
     },
-    "sub_categories": {
-      "via": "category",
-      "collection": "sub-category"
+    "category": {
+      "model": "category",
+      "via": "sub_categories"
     },
     "description": {
       "type": "text"
