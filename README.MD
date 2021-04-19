@@ -40,3 +40,4 @@
 ### Heroku commands
 
 - `heroku config -a art-of-life-blog-be` : Enviroment Variables
+- `heroku git:remote -a art-of-life-blog-be` : Add Heroku git
