@@ -112,3 +112,4 @@ exports
 build
 latest.*
 backup.sql
+strapi-updater.json
